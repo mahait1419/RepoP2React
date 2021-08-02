@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:  rgb(230, 203, 115);
 }
 
 .App-logo {
@@ -12,6 +13,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+DIV.container {
+  min-height: 10em;
+  display: table-cell;
+  vertical-align: center
+  
+ }
+ div.container {
+  height: 10em;
+  position: center }
 
 .App-header {
   background-color: #282c34;
@@ -21,7 +31,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(85, 223, 241);
 }
 
 .App-link {
